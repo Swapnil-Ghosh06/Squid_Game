@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Oak & Leaf Matcha Experience</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">OAK & LEAF</div>
+      <ul class="nav-links">
+        <li><a href="#story">The Story</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#" class="cart-btn">Cart (0)</a></li>
+      </ul>
+    </nav>
+
+    <div class="scrollytelling-container">
+      <!-- Sticky viewport that holds the visually animated elements -->
+      <div class="sticky-viewport">
+        <!-- Graphic Layer -->
+        <div class="graphics-container">
+          <canvas id="matcha-canvas"></canvas>
+        </div>
+
+        <!-- Text Overlays Section -->
+        <div class="text-overlays">
+          <div class="beat beat-a" id="beat-a">
+            <h1>PURE EMERALD</h1>
+            <p>Nature's finest stone-ground matcha meets artisanal craft.</p>
+          </div>
+          <div class="beat beat-b" id="beat-b">
+            <h1>KINETIC CHILL</h1>
+            <p>
+              Jagged crystalline ice, suspended in a moment of perfect
+              temperature.
+            </p>
+          </div>
+          <div class="beat beat-c" id="beat-c">
+            <h1>THE SWIRL</h1>
+            <p>
+              Rich cream and concentrated green tea dancing in a zero-gravity
+              marble.
+            </p>
+          </div>
+          <div class="beat beat-d" id="beat-d">
+            <h1>OAK & LEAF</h1>
+            <p>Your daily ritual, elevated.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Story Section -->
+    <section id="story" class="the-story">
+      <div class="section-header">
+        <h2>FARM TO CUP</h2>
+        <p>Grown in the shade of ancient trees. Ground by stone.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>01. Shade Grown</h3>
+          <p>Covered for 20 days before harvest to maximize L-theanine and vibrant green color.</p>
+        </div>
+        <div class="feature-card">
+          <h3>02. First Harvest</h3>
+          <p>Only the youngest, most tender leaves are hand-picked in early spring.</p>
+        </div>
+        <div class="feature-card">
+          <h3>03. Stone Ground</h3>
+          <p>Slowly milled by traditional granite stone to preserve nutrients and delicate flavor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop-section">
+      <div class="section-header">
+        <h2>THE COLLECTION</h2>
+      </div>
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="assets/product1.png" alt="Ceremonial Matcha Tin">
+          </div>
+          <div class="product-info">
+            <h3>Ceremonial Grade Matcha</h3>
+            <p class="price">$45.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="assets/product2.png" alt="Matcha Whisk Set">
+          </div>
+          <div class="product-info">
+            <h3>Artisan Whisk Set (Chasen)</h3>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h2>OAK & LEAF</h2>
+          <p>Elevating your daily ritual through nature's finest craft.</p>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Join the Ritual</h3>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Oak & Leaf Cafe. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
